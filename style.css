@@ -1,0 +1,64 @@
+*{
+  padding:0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #4DA5A0;
+  text-align: center;
+}
+
+h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.game{
+ height :70vh;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.container{
+  height:60vmin;
+  width:60vmin; 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5vmin;
+}
+
+.play-button{
+  background-color:#DBEBB7;
+  color:#202612;
+  font-size:25px;
+  Height:50px;
+  width:50px;
+  border:none;
+  padding: 2px 4px;
+  margin-left: 2px;
+  border-radius: 0.71rem;
+  cursor: pointer;
+  font-family:'Permanent Marker';
+}
+
+.refresh{
+  cursor: pointer;
+  height: 15vmin;
+  width:25vmin;
+  Background-color:#1F6959;
+  color: #F2FFAE;
+  border: none;
+  border-radius: 1rem;
+}
+
+.Win-text{
+  font-size: 5vh;
+  margin-top: 3vh;
+  margin-left: 2px;
+  font-weight: 580;
+  
+}
